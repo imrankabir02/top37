@@ -23,4 +23,4 @@ solution = Solution()
 nums = [1,2,3,4,5,6,7]
 
 print(f"Input: nums={nums}")
-print(f"Output: ", solution.maxArea(nums))
+print(f"Output: {solution.maxArea(nums)}")

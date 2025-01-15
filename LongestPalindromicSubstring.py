@@ -40,5 +40,5 @@ class Solution():
 solution = Solution()
 s = "abbc"
 print(f"Input: {s}")
-print(f"Output with bruteForce: ", solution.bruteForce(s)) 
-print(f"Output with twoPointer: ", solution.twoPointer(s)) 
+print(f"Output with bruteForce: {solution.bruteForce(s)}") 
+print(f"Output with twoPointer: {solution.twoPointer(s)}") 
