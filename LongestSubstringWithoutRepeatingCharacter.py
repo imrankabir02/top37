@@ -39,7 +39,7 @@ class Solution:
 
 sol = Solution()
 
-s = "zxyzxyz"
+s = "racingcards"
 print(f"Input: s = {s}")
 print(f"Output in bruteForce: {sol.bruteForce(s)}")
 print(f"Output in Sliding window (set): {sol.slidingWindowSet(s)}")
