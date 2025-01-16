@@ -29,8 +29,8 @@ class Solution:
         return -1
 sol = Solution()
 
-nums = [3,4,5,6,1,2]
-target = 1
+nums = [5,1,3]
+target = 5
 print(f"Input: nums={nums}, target={target}")
 print(f"Output using bruteForce: {sol.bruteForce(nums, target)}")
 print(f"Output using binary search: {sol.search(nums, target)}")
