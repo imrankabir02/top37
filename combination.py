@@ -15,7 +15,7 @@ class Solution:
         return res
     
     def oneLine(self, n, k):
-        return list(combinations([i for i in range(1, n+1)], k))  
+        return list(combinations(list(range(1, n+1)), k))
 sol = Solution()
 
 n = 5
